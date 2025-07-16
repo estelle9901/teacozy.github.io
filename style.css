@@ -1,0 +1,106 @@
+html{
+  font-family:Helvetica;
+  font-size:22px;
+  color:seashell;
+  background-color:black;
+  opacity:0.9;
+}
+header{
+  position: relative;
+  height:69px;
+  border-bottom: 1px solid seashell;
+}
+header img{
+  height: 50px;
+  margin-left:10px;
+  margin-top:9px;
+
+}
+header ul{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-decoration: underline;
+  text-align:right;
+  margin:0px;
+}
+header li{
+  display: inline;
+  padding:10px;
+}
+.mission{
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*j2cw7z*_gcl_aw*R0NMLjE3NTAxNzYwNzcuQ2p3S0NBandwTVRDQmhBLUVpd0FfLU1zbVJ4cHFWZ2VpbzY5U1R4Tm5aV2JESXBoRkJYNUhuT3dKZkZoUFdlRkwzanNQam1NTHRnMW14b0N6ME1RQXZEX0J3RQ..*_gcl_au*MjA0NTExMjc2Ni4xNzQ4ODM0NjAzLjQwODkzODczMy4xNzUwMTc2MDc3LjE3NTAxNzYwNzc.*_ga*OTMxODIzMjgwOS4xNzQ4ODM0NjAx*_ga_3LRZM6TM9L*czE3NTE0NzI5ODEkbzQyJGcxJHQxNzUxNDc3Mjg5JGo1NSRsMCRoMA..");
+  height: 700px;
+  //width:1200px;
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;       /* 水平居中 */
+  align-items: center;           /* 垂直居中 */
+  text-align: center;
+}
+.mission h2, .mission h4{
+  margin: 0px;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  padding-top: 10px;
+  background-color:black;
+}
+.month{
+  display: flex;
+  flex-wrap: wrap;                /* ⬅️ 自动换行 */
+  justify-content: center;
+  gap: 10px;                      /* ⬅️ 每个盒子之间的间距 */
+  padding: 30px;
+  text-align:center;
+}
+.month h2,.month h4{
+  margin-top: 0px;
+  padding: 0px;
+  width: 100%;
+  align-items: center;
+}
+.month img{
+  width:300px;
+  height:200px;
+}
+
+.product{
+  width: 300px;                   /* 你可以设置一个固定宽度或用百分比 */
+  text-align: center;
+}
+.locations{
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*c9sgjh*_gcl_aw*R0NMLjE3NTAxNzYwNzcuQ2p3S0NBandwTVRDQmhBLUVpd0FfLU1zbVJ4cHFWZ2VpbzY5U1R4Tm5aV2JESXBoRkJYNUhuT3dKZkZoUFdlRkwzanNQam1NTHRnMW14b0N6ME1RQXZEX0J3RQ..*_gcl_au*MjA0NTExMjc2Ni4xNzQ4ODM0NjAzLjQwODkzODczMy4xNzUwMTc2MDc3LjE3NTAxNzYwNzc.*_ga*OTMxODIzMjgwOS4xNzQ4ODM0NjAx*_ga_3LRZM6TM9L*czE3NTE0ODUwMjckbzQzJGcxJHQxNzUxNDg1ODY3JGo0NCRsMCRoMA..");
+  height: 500px;
+  //width:1200px;
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  justify-content: start;   
+  align-items: center;           /* 垂直居中 */
+  text-align: center;
+  padding-top:40px;
+}
+location-title h2{
+  margin:0 0 30px 0;
+}
+.location-list{
+  display: flex;
+  gap: 40px;                  /* 地址块之间的空隙 */
+  justify-content: center;
+}
+.info {
+  width: 300px;  
+  background-color:black;              
+  text-align: center;
+}
+.footer{
+  text-align: center;
+}
+footer h5{
+  text-align: start;
+  margin-top:20px;
+}
