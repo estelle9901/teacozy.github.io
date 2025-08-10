@@ -1,4 +1,5 @@
-Fictional Tea Shop Website
+Fictional Tea Shop Website: https://estelle9901.github.io/teacozy.github.io/
+
 
 This project is a fully self-built fictional tea shop website, developed entirely from scratch based on a provided design specification and image assets.
 
